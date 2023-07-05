@@ -1,0 +1,63 @@
+body {
+    font-family: kalam, 'Times New Roman', Times, serif;
+    margin: 0;
+}
+#page-logo a {
+    font-family: pacifico, kalam;
+    padding: 15px;
+    color: rgb(29, 29, 27);
+    font-size: 30px;
+    text-decoration: none;
+    text-shadow: 3px 2px 1px rgb(253, 249, 22);
+    
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 15px;
+    position: absolute;
+    width: 100%;
+    box-sizing: border-box;
+}
+header ul {
+    display: flex;
+}
+header li a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: rgb(29, 29, 27);
+    background-color: rgb(252, 248, 16);
+    font-size: 15px;
+    padding: 6px;
+    border-radius: 10px;
+    font-family: playFair Display;
+ 
+}
+header li a:hover {
+    background-color: rgb(247, 211, 8);
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+footer {
+    background-color: aliceblue;
+    background: linear-gradient(70deg, rgb(246, 252, 250), rgb(215, 247, 236));
+}
+footer ul {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+footer li {
+    width: 50px;
+    height: 50px;
+    margin-left: 25px;
+}
+footer img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
